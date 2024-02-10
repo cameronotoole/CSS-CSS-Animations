@@ -21,11 +21,12 @@
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
+  transition: 2s;
 }
 
 .transition-demo img:hover {
   filter: none;
-  transition: 4s;
+  transform: scale(1.25) rotate (360deg);
 }
 
 /****************************************
