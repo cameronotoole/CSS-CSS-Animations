@@ -2,6 +2,7 @@
 * Transform
 ****************************************/
 .transform-demo > div {
+  transform: scale(3.4, 2);
   height: 40px;
   background: salmon;
   width: 20%;
@@ -14,15 +15,13 @@
 ****************************************/
 
 .transition-demo img {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
-
 }
 
 .transition-demo img:hover {
-
 }
 
 /****************************************
@@ -35,11 +34,19 @@
   width: 500px;
   margin: auto;
   background-color: palegreen;
-
 }
 
 @keyframes sale-bar {
-  0% { background-color: lightgreen; width: 450px }
-  75% { background-color: #FF033E; width: 125x }
-  100% { background-color: crimson; width: 10px }
+  0% {
+    background-color: lightgreen;
+    width: 450px;
+  }
+  75% {
+    background-color: #ff033e;
+    width: 125x;
+  }
+  100% {
+    background-color: crimson;
+    width: 10px;
+  }
 }
