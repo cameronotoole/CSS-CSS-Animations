@@ -25,6 +25,7 @@
 
 .transition-demo img:hover {
   filter: none;
+  transition: 4s;
 }
 
 /****************************************
