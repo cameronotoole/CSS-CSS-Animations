@@ -2,12 +2,14 @@
 * Transform
 ****************************************/
 .transform-demo > div {
-  transform: scale(3.4, 2);
+  /* transform: scale(3.4, 2); */
+  transform: translate(150px);
   height: 40px;
   background: salmon;
   width: 20%;
   margin: auto;
   display: inline-block;
+  opacity: 0.5;
 }
 
 /****************************************
@@ -22,6 +24,7 @@
 }
 
 .transition-demo img:hover {
+  filter: none;
 }
 
 /****************************************
